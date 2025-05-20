@@ -13,10 +13,7 @@ formDOM.addEventListener('submit', event => {
             <div class="index">${++count}</div>
             <button type="button" class="btn">Delete</button>
           </div>
-          <div class="content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci incidunt beatae vel velit ut. Nisi similique quam odit doloribus explicabo rerum, iste sapiente facilis distinctio tempora ipsum totam temporibus eum corrupti vel eligendi, voluptate, dolore perferendis magnam laudantium!
-            Rem, dignissimos.
-          </div>
+          <div class="content">${inputDOM.value}</div>
         </div>`;
 
     const deleteBtnListDOM = document.querySelectorAll('.btn');
