@@ -1,3 +1,4 @@
+document.querySelector('title').textContent = 'Cars';
 const listDOM = document.querySelector('.list');
 
 const data = [
