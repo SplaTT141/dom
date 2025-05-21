@@ -1,5 +1,5 @@
 export function header(isMainPage = false) {
-  const path = isMainPage ? './' : '../'
+  const path = isMainPage ? './' : '../';
   document.body.insertAdjacentHTML('afterbegin', `
     <header class="main-header">
       <nav>
